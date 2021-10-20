@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.menu.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.menu.ui.Map.MapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_map" />
+
+   <!-- <fragment
+        android:id="@+id/nav_hiking"
+        android:name="com.example.menu.ui.Hiking.HikingFragment"
+        android:label="Hiking"
+        tools:layout="@layout/fragment_hiking" />
+
+    <fragment
+        android:id="@+id/nav_biking"
+        android:name="com.example.menu.ui.Biking.BikingFragment"
+        android:label="Biking"
+        tools:layout="@layout/fragment_biking" />
+    <fragment
+        android:id="@+id/nav_offroad"
+        android:name="com.example.menu.ui.Offroad.OffroadFragment"
+        android:label="Offroad"
+        tools:layout="@layout/fragment_offroad" />-->
+    <fragment
+        android:id="@+id/nav_restaurant"
+        android:name="com.example.menu.ui.Restaurants.RestaurantsFragment"
+        android:label="Restaurants"
+        tools:layout="@layout/fragment_restaurants" />
+    <fragment
+        android:id="@+id/nav_nightlife"
+        android:name="com.example.menu.ui.Nightlife.NightlifeFragment"
+        android:label="Nightlife"
+        tools:layout="@layout/fragment_nightlife" />
+    <fragment
+        android:id="@+id/nav_hotels"
+        android:name="com.example.menu.ui.Hotels.HotelsFragment"
+        android:label="Hotels"
+        tools:layout="@layout/fragment_hotels" />
+    <fragment
+        android:id="@+id/nav_traditionelhouse"
+        android:name="com.example.menu.ui.TraditionalHouse.TraditionalHouseFragment"
+        android:label="TraditionalHouse"
+        tools:layout="@layout/fragment_traditional_house" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.menu.ui.logout.logoutFragment"
+        android:label="logout"
+        tools:layout="@layout/fragment_logout" />
+</navigation>

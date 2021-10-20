@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map"
+            android:title="Map"
+            />
+        <!--  <item
+            android:id="@+id/nav_hiking"
+            android:icon="@drawable/ic_hiking"
+            android:title="Hiking"
+            />
+      <item
+            android:id="@+id/nav_biking"
+            android:icon="@drawable/ic_biking"
+            android:title="Biking"
+            />
+        <item
+            android:id="@+id/nav_offroad"
+            android:icon="@drawable/ic_offroad"
+            android:title="Offroad"
+            />-->
+        <item
+            android:id="@+id/nav_restaurant"
+            android:icon="@drawable/ic_restaurant"
+            android:title="Restaurants"
+            />
+        <item
+            android:id="@+id/nav_nightlife"
+            android:icon="@drawable/ic_nightlife"
+            android:title="Nightlife"
+            />
+        <item
+            android:id="@+id/nav_hotels"
+            android:icon="@drawable/ic_hotels"
+            android:title="Hotels"
+            />
+        <item
+            android:id="@+id/nav_traditionelhouse"
+            android:icon="@drawable/ic_traditionelhouse"
+            android:title="TradtionalHouse"
+            />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="logout"
+            />
+    </group>
+</menu>
